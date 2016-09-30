@@ -86,6 +86,28 @@ footer {
   border-top: 8px solid #4aaaa5;
 }
 
+img {
+  height: 150px;
+}
+
 .button {
-  
+
+}
+
+#about {
+
+}
+
+#form {
+
+}
+
+#portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#contact {
+
 }
