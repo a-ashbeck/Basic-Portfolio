@@ -1,39 +1,48 @@
 body {
-
+  background-image: url(../images/cork-wallet.jpg);
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 #container {
 
 }
 
-nav {
-
+header {
+  background-color: #ffffff;
+  position: relative;
+  height: 100px;
+  width: 100%;
 }
 
 #main-header {
-
+  background-color: #4aaaa5;
+  padding: 5px;
 }
 
 #page-content {
-
+  float: left;
 }
 
 #about {
-
+  float: left;
 }
 
 #contact {
-
+  float: left;
 }
 
 #form {
-
+  float: left;
 }
 
 #portfolio {
-  
+  float: left;
 }
 
 footer {
-
+  clear: both;
+  position: sticky;
+  bottom: 0;
 }
