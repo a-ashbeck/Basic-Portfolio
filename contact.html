@@ -6,39 +6,41 @@
 </head>
 <body>
   <header>
-    <h1>Alan W. Ashbeck</h1>
-    <ul>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="index.html">About</a></li>
-    </ul>
+    <a href="index.html"><h1>Alan W. Ashbeck</h1></a>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
   <div id="container">
-    <div id="form">
-      <h1>Contact</h1>
-      <form>
-          <div>
-              <label for="name">Name</label>
-              <input type="text" name="user_name"/>
+    <div id="main-content">
+      <div id="form main-section">
+        <h1>Contact</h1>
+        <form>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="user_name"/>
+            </div>
+            <div>
+                <label for="mail">E-mail</label>
+                <input type="email" name="user_mail"/>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="user_message"></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Submit</button>
           </div>
-          <div>
-              <label for="mail">E-mail</label>
-              <input type="email" name="user_mail"/>
-          </div>
-          <div>
-              <label for="message">Message</label>
-              <textarea name="user_message"></textarea>
-          </div>
-          <div class="button">
-            <button type="submit">Submit</button>
-        </div>
-      </form>
-    </div>
-    <div id="contact">
-      <h2>Connect with Me</h2>
-      <a href="#"><img height="40" src="alanface.jpg" alt=""></a>
-      <a href="#"><img height="40" src="alanface.jpg" alt=""></a>
-      <a href="#"><img height="40" src="alanface.jpg" alt=""></a>
+        </form>
+      </div>
+      <div id="contact">
+        <h2>Connect with Me</h2>
+        <a href="#"><img height="40" src="alanface.jpg" alt=""></a>
+        <a href="#"><img height="40" src="alanface.jpg" alt=""></a>
+        <a href="#"><img height="40" src="alanface.jpg" alt=""></a>
+      </div>
     </div>
   </div>
   <footer>
