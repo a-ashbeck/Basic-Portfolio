@@ -1,15 +1,13 @@
 * {
   box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
-  color: #7777777;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 body {
   background-image: url(../images/cork-wallet.jpg);
   box-sizing: border-box;
   margin-bottom: 80px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #7777777;
 }
 
 nav {
@@ -29,6 +27,30 @@ nav a {
 h1, h2, h3 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1em;
 }
 
 header {
