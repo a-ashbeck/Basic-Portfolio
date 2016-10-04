@@ -63,20 +63,20 @@ header {
   margin: 30px auto 60px auto;
 }
 
-.about {
+.main-section {
   float: left;
+  background-color: #ffffff;
+  width: 650px;
+  border: 1px solid #cccccc;
+  padding: 30px;
 }
 
-.contact {
-  float: left;
-}
-
-.form {
-  float: left;
-}
-
-.portfolio {
-  float: left;
+.side-bar {
+  float: right;
+  background-color: #ffffff;
+  width: 270px;
+  border: 1px solid #cccccc;
+  padding: 30px;
 }
 
 footer {
