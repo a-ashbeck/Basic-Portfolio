@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  color: #777777;
+  overflow: auto;
 }
 
 body {
@@ -7,7 +9,6 @@ body {
   box-sizing: border-box;
   margin-bottom: 80px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #7777777;
 }
 
 nav {
@@ -16,36 +17,30 @@ nav {
 }
 
 nav a {
-  margin: 22px 3px 22px 3px;
+  margin: 22px 7px 22px 7px;
 }
 
 h1, h2, h3 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
+  font-weight: bold;
 }
 
 h1 {
   font-size: 2em;
-  font-weight: bold;
 }
 
 h2 {
   font-size: 1.5em;
-  font-weight: bold;
 }
 
 h3 {
   font-size: 1.3em;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 1em;
-  font-weight: bold;
 }
 
 p {
   font-size: 1em;
+  line-height: 1.8;
 }
 
 header {
@@ -53,14 +48,20 @@ header {
   position: relative;
   height: 60px;
   width: 100%;
-  border-bottom: 3px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
+}
+
+#alan-face {
+  padding: 6px 10px 10px 0;
+  height: 180px;
+  float: left;
 }
 
 .main-content {
-  color: #ffffff;
   border-color: #dddddd;
   width: 960px;
   margin: 30px auto 60px auto;
+  overflow: scroll;
 }
 
 .main-section {
@@ -76,7 +77,29 @@ header {
   background-color: #ffffff;
   width: 270px;
   border: 1px solid #cccccc;
-  padding: 30px;
+  padding: 20px;
+}
+
+.social-media {
+  width: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+.h1-main {
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.h2-side {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 18px;
+  margin-bottom: 20px;
+}
+
+.social-center {
+  margin: 0px 9px 0px 9px;
 }
 
 footer {
@@ -86,9 +109,8 @@ footer {
   height: 60px;
   background-color: #666666;
   text-align: center;
-  padding: 20px;
-  clear: both;
-  border-top: 3px solid #4aaaa5;
+  padding: 14px;
+  border-top: 6px solid #4aaaa5;
 }
 
 a {
@@ -97,10 +119,14 @@ a {
   padding: 0;
 }
 
+a:hover {
+  color: #FF5700;
+}
+
 a h1 {
   padding: 14px;
   margin-left: 160px;
-  height: 57px;
+  height: 58px;
   text-align: center;
   background-color: #4aaaa5;
   color: #ffffff;
@@ -110,6 +136,6 @@ a h1 {
   border-width: 0 1px 0 1px;
   border-color: #cccccc;
   border-style: solid;
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
