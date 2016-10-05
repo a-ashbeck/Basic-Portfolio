@@ -157,3 +157,31 @@ a h1 {
       -ms-transform: rotate(360deg);
           transform: rotate(360deg);
 }
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 4px;
+    resize: none;
+    margin: 10px 0px;
+    border: 1px solid #cccccc;
+    font-size: 0.8em;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 4px;
+    display: inline-block;
+    margin: 10px 0px;
+    border: 1px solid #cccccc;
+    font-size: 0.8em;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 4px;
+    display: inline-block;
+    margin: 10px 0px;
+    border: 1px solid #cccccc;
+    font-size: 0.8em;
+}
