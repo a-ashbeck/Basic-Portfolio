@@ -163,7 +163,7 @@ textarea {
     height: 150px;
     padding: 4px;
     resize: none;
-    margin: 10px 0px;
+    margin: 6px 0px 22px 0px;
     border: 1px solid #cccccc;
     font-size: 0.8em;
 }
@@ -172,7 +172,7 @@ input[type=text], select {
     width: 100%;
     padding: 4px;
     display: inline-block;
-    margin: 10px 0px;
+    margin: 6px 0px 22px 0px;
     border: 1px solid #cccccc;
     font-size: 0.8em;
 }
@@ -181,7 +181,18 @@ input[type=email], select {
     width: 100%;
     padding: 4px;
     display: inline-block;
-    margin: 10px 0px;
+    margin: 6px 0px 22px 0px;
     border: 1px solid #cccccc;
     font-size: 0.8em;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
 }
