@@ -214,6 +214,30 @@ button {
     cursor: pointer;
 }
 
+/*Portfolio styles*/
+.a-port {
+  width: 276px;
+  position: relative;
+}
+
+.banner {
+  width: 260px;
+  height: 62px;
+  background-color: #4aaaa5;
+  position: absolute;
+  left: 8px;
+  right: 0;
+  bottom: 20px;
+  padding: 14px
+}
+
+.banner h3 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: normal;
+  padding: 6px;
+}
+
 /* Footer styles */
 footer {
   position: relative;
