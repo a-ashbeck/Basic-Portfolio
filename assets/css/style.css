@@ -1,4 +1,4 @@
-/* Higher level styles */
+/* General styles */
 * {
   box-sizing: border-box;
   color: #777777;
@@ -14,14 +14,6 @@ body {
   box-sizing: border-box;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   height: 100%;
-}
-
-nav {
-  float: right;
-}
-
-nav a {
-  margin: 22px 7px 22px 7px;
 }
 
 h1, h2, h3 {
@@ -47,6 +39,17 @@ p {
   line-height: 1.8;
 }
 
+a {
+  float: left;
+  text-decoration: none;
+  padding: 0;
+}
+
+a:hover {
+  color: #FF5700;
+}
+
+/*Header styles*/
 header {
   background-color: #ffffff;
   height: 60px;
@@ -59,12 +62,32 @@ header {
   margin: 0 auto;
 }
 
-#alan-face {
-  padding: 6px 10px 10px 0;
-  height: 180px;
-  float: left;
+a h1 {
+  padding: 14px;
+  height: 58px;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: #ffffff;
 }
 
+/*Navigation styles*/
+nav {
+  float: right;
+}
+
+nav a {
+  margin: 22px 7px 22px 7px;
+}
+
+.a-border {
+  border-width: 0 1px 0 1px;
+  border-color: #cccccc;
+  border-style: solid;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+/*Content Styles*/
 .main-content {
   border-color: #dddddd;
   width: 960px;
@@ -119,37 +142,18 @@ header {
   margin: 0px 9px 0px 9px;
 }
 
+/*Image styles*/
+#alan-face {
+  padding: 6px 10px 10px 0;
+  height: 180px;
+  float: left;
+}
+
 .portfolio-images {
   width: 276px;
   padding: 8px;
   float: left;
   position: relative;
-}
-
-a {
-  float: left;
-  text-decoration: none;
-  padding: 0;
-}
-
-a:hover {
-  color: #FF5700;
-}
-
-a h1 {
-  padding: 14px;
-  height: 58px;
-  text-align: center;
-  background-color: #4aaaa5;
-  color: #ffffff;
-}
-
-.a-border {
-  border-width: 0 1px 0 1px;
-  border-color: #cccccc;
-  border-style: solid;
-  padding-left: 14px;
-  padding-right: 14px;
 }
 
 /*MORPH*/
