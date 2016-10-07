@@ -36,6 +36,7 @@ h3 {
 p {
   font-size: 16px;
   line-height: 1.8;
+  margin-bottom: 16px;
 }
 
 a {
@@ -90,11 +91,17 @@ nav a {
 .main-content {
   border-color: #dddddd;
   width: 960px;
-  margin: 0 auto -120px;
-  padding-bottom: 120px;
+  margin: 0 auto;
+  padding-bottom: 60px;
   overflow: scroll;
   padding-top: 40px;
   min-height: 100%;
+}
+
+.main-content:after {
+    content: " ";
+    display: table;
+    clear: both;
 }
 
 .main-section {
@@ -103,7 +110,7 @@ nav a {
   width: 650px;
   border: 1px solid #cccccc;
   padding: 30px;
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
 }
 
 .side-bar {
@@ -138,7 +145,7 @@ nav a {
 
 /*About image styles*/
 #alan-face {
-  padding: 6px 10px 10px 0;
+  padding: 6px 10px 0px 0;
   height: 180px;
   float: left;
 }
@@ -146,7 +153,7 @@ nav a {
 /* Form content styles */
 textarea {
   width: 100%;
-  height: 150px;
+  height: 200px;
   padding: 4px 8px;
   resize: none;
   margin: 6px 0px 22px 0px;
@@ -215,8 +222,16 @@ button {
   position: relative;
 }
 
+.portfolio-images:hover {
+  opacity: 0.75;
+}
+
+.right {
+  float: right;
+}
+
 .left {
-  margin-left: 36px;
+  float: left;
 }
 
 /* Footer styles */
@@ -237,16 +252,16 @@ footer p {
 /*Morph link functionality styles*/
 .morph {
   -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .morph:hover {
   -webkit-transform: rotate(360deg);
-     -moz-transform: rotate(360deg);
-       -o-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
